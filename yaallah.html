@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin-left: 0;
+                margin-right: 0;
+            }
+            h2 {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            h1 {
+                text-align: center;
+            }
+            .one {
+                background-color: #2f4156;
+                color: #f5efeb;
+                padding: 10px 8px;
+            }
+            .two {
+                background-color: #567c8d;
+                color: #f5efeb;
+                padding: 10px 8px;
+            }
+            .three {
+                background-color: #c8d9e6;
+                color: #567c8d;
+                padding: 10px 8px;
+            }
+            .four {
+                background-color: #f5efeb;
+                color: #567c8d;
+                padding: 10px 8px;
+            }
+            .five {
+                background-color: #ffffff;
+                color: #9ec7e7;
+                padding: 10px 8px;
+            }
+            .six {
+                background-color: #567c8d;
+                color: #f5efeb;
+                padding: 10px 8px;
+            }
+            .seven {
+                background-color: #f5efeb;
+                color: #567c8d;
+                padding: 10px 8px;
+            }
+            .eight {
+                background-color: #2f4156;
+                color: #f5efeb;
+                padding: 10px 8px;
+            }
+            .nine {
+                background-color: #ffffff;
+                color: #9ec7e7;
+                padding: 10px 8px;
+            }
+            .ten  {
+                background-color: #c8d9e6;
+                color: #567c8d;
+                padding: 10px 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="one">
+            <form>
+                <h1>01 JOB APPLICATION FORM</h1>
+                <h2>Personal Details:</h2><br>
+                <label>Full Name: <input type="text" placeholder="Enter Full Name" required></label><br>
+                <br><label>Date of Birth: <input type="date"></label><br>
+                <br><label>Permanent Address: <input type="text"></label><br>
+                <br><label>Email: <input type="email" required></label><br>
+                <br><label>Phone Number: <input type="tel"></label>
+                <br><h2>Position Applied For:</h2><br>
+                <label>Job Title: <input type="text"></label><br>
+                <br><label>Department: <input type="text"></label><br>
+                <br><label>How Did You Hear About Us?</label><br>
+                <textarea name="message" rows="4" cols="45"></textarea><br>
+                <br><h2>Education:</h2><br>
+                <label>Degrees or Certifications: <input type="file" required></label><br>
+                <br><label>Institutions Attended (UG): <input type="text" required></label><br>
+                <br><label>Graduation Dates: <input type="date"></label><br>
+                <br><label>Institutions Attended (PG if): <input type="text"></label><br>
+                <br><label>Graduation Dates: <input type="date"></label><br>
+                <br><label>Major/Field of Study: <input type="tel"></label><br>
+                <br><h2>Skills and Qualifications:</h2><br>
+                <label>Relevant Skills:</label><br>
+                <textarea name="message" rows="4" cols="45" required></textarea><br>
+                <br><label>Cover Letter: <input type="file"></label><br>
+                <h4>Applicants Signature:</h4>
+                <input type="file"><br>
+                <br><input type="submit" value="Submit Application">
+            </form>
+        </div>
+        <div class="two">
+            <form>
+                <h1>02 MEDICAL CERTIFICATE FORM</h1>
+                <h2>Patient Details:</h2><br>
+                <label>Full Name: <input type="text" placeholder="Enter Full Name" required></label><br>
+                <br><label>Date of Birth: <input type="date" required></label><br>
+                <br><label>Permanent Address: <input type="text" required></label><br>
+                <br><label>Phone Number: <input type="tel"></label><br>
+                <br><label>Email: <input type="email"></label><br>
+                <br><h2>Medical Details:</h2><br>
+                <label>Diagnosis: <input type="text" required></label><br>
+                <br><label>Prescribed Medication: <input type="text"></label><br>
+                <br><label>Treatment Start Date: <input type="date"></label><br>
+                <br><label>Treatment End Date: <input type="date"></label><br>
+                <br><label>Additional Notes:</label><br>
+                <textarea name="notes" rows="4" cols="45"></textarea><br>
+                <br><h2>Doctor's Details:</h2><br>
+                <label>Doctor's Full Name: <input type="text" required></label><br>
+                <br><label>Hospital/Clinic Name: <input type="text" required></label><br>
+                <br><label>Address: <input type="text"></label><br>
+                <br><label>Email: <input type="email"></label><br>
+                <br><label>Phone Number: <input type="tel"></label><br>
+                <h4>Doctors Signature and Stamp:</h4><br>
+                <label>Upload Signature and Stamp: <input type="file" required></label><br>
+                <br><input type="submit" value="Submit Form">
+            </form>
+        </div>
+
+        <div class="three">
+            <form>
+                <h1>03 INSURANCE APPLICATION FORM</h1>
+                <h2>Personal Details:</h2><br>
+                <label>Full Name: <input type="text" placeholder="Enter Full Name" required></label><br>
+                <br><label>Date of Birth: <input type="date" required></label><br>
+                <br><label>Permanent Address: <input type="text" required></label><br>
+                <br><label>Phone Number: <input type="tel"></label><br>
+                <br><label>Email: <input type="email" required></label><br>
+                <br><label>Marital Status: 
+                    <select required>
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                        <option value="divorced">Divorced</option>
+                        <option value="widowed">Widowed</option>
+                    </select>
+                </label><br>
+                <br><h2>Insurance Details:</h2><br>
+                <label>Type of Insurance: 
+                    <select required>
+                        <option value="health">Health Insurance</option>
+                        <option value="life">Life Insurance</option>
+                    </select>
+                </label><br>
+                <br><label>Coverage Amount: <input type="number" placeholder="Enter Coverage Amount" required></label><br>
+                <br><label>Policy Term (in years): <input type="number" required></label><br>
+                <br><label>Beneficiary Name: <input type="text" required></label><br>
+                <br><h2>Employment Details:</h2><br>
+                <label>Employer Name: <input type="text"></label><br>
+                <br><label>Occupation: <input type="text"></label><br>
+                <br><label>Annual Income: <input type="number" required></label><br>
+                <br><h2>Medical History:</h2><br>
+                <label>Do you have any pre-existing conditions? 
+                    <select required>
+                        <option value="no">No</option>
+                        <option value="yes">Yes</option>
+                    </select>
+                </label><br>
+                <br><label>If yes, please specify:</label><br>
+                <textarea name="medical_conditions" rows="4" cols="45"></textarea><br>
+                <h4>Applicants Signature:</h4><br>
+                <label>Upload Signature: <input type="file" required></label><br>
+                <br><input type="submit" value="Submit Application">
+            </form>
+        </div>
+        <div class="four">
+            <form>
+                <h1>04 MEMBERSHIP APPLICATION FORM</h1>
+                <br><h2>Personal Details:</h2><br>
+                <label>Full Name: <input type="text" placeholder="Enter Full Name" required></label><br>
+                <br><label>Date of Birth: <input type="date" required></label><br>
+                <br><label>Permanent Address: <input type="text" required></label><br>
+                <br><label>Phone Number: <input type="tel"></label><br>
+                <br><label>Email: <input type="email" required></label><br>
+                <br><label>Gender: 
+                    <select required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="prefer_not_to_say">Prefer Not to Say</option>
+                    </select>
+                </label><br>
+                <br><h2>Membership Details:</h2><br>
+                <label>Membership Type: 
+                    <select required>
+                        <option value="basic">Basic</option>
+                        <option value="premium">Premium</option>
+                        <option value="vip">VIP</option>
+                    </select>
+                </label><br>
+                <br><label>Preferred Payment Method: 
+                    <select required>
+                        <option value="credit_card">Credit Card</option>
+                        <option value="debit_card">Debit Card</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank_transfer">Bank Transfer</option>
+                    </select>
+                </label><br>
+                <br><h2>Emergency Contact Details:</h2><br>
+                <label>Emergency Contact Name: <input type="text" required></label><br>
+                <br><label>Relationship: <input type="text" required></label><br>
+                <br><label>Contact Number: <input type="tel" required></label><br>
+                <h4>Applicants Signature:</h4>
+                <label>Upload Signature: <input type="file" required></label><br>
+                <br><input type="submit" value="Submit Application">
+            </form>
+        </div>
+
+        <div class="five">
+            <form>
+                <h1>05 MATRIMONY APPLICATION FORM</h1>
+                <h2>Personal Details:</h2><br>
+                <label>Full Name: <input type="text" placeholder="Enter Full Name" required></label><br>
+                <br><label>Date of Birth: <input type="date" required></label><br>
+                <br><label>Gender: 
+                    <select required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label><br>
+                <br><label>Address: <input type="text" required></label><br>
+                <br><label>Phone Number: <input type="tel"></label><br>
+                <br><label>Email: <input type="email" required></label><br>
+                <br><label>Religion: <input type="text" required></label><br>
+                <h2>Family Details:</h2><br>
+                <label>Fathers Name: <input type="text" required></label><br>
+                <br><label>Mothers Name: <input type="text" required></label><br>
+                <br><label>Siblings (if any): <input type="text"></label><br>
+                <h2>Professional Details:</h2><br>
+                <label>Highest Qualification: <input type="text" required></label><br>
+                <br><label>Occupation: <input type="text" required></label><br>
+                <br><label>Annual Income: <input type="number" required></label><br>
+                <h2>Partner Preferences:</h2><br>
+                <label>Preferred Age Range: 
+                    <input type="number" required> 
+                </label><br>
+                <br><label>Preferred Religion: <input type="text" required></label><br>
+                <br><label>Preferred Education Level: <input type="text" required></label><br>
+                <br><label>Upload Photo: <input type="file" required></label><br>
+                <br><input type="submit" value="Submit Application">
+            </form>
+        </div>
+        <div class="six">
+            <form>
+                <h1>06 BIRTH CERTIFICATE APPLICATION FORM</h1>
+                <h2>Child Details:</h2><br>
+                <label>Full Name of Child: <input type="text" placeholder="Enter Child's Full Name" required></label><br>
+                <br><label>Date of Birth: <input type="date" required></label><br>
+                <br><label>Gender: 
+                    <select required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label><br>
+                <br><label>Place of Birth: <input type="text" required></label><br>
+                <br><label>Weight at Birth: <input type="number" step="0.01" required></label><br>
+                <br><h2>Parents Details:</h2><br>
+                <label>Fathers Full Name: <input type="text" required></label><br>
+                <br><label>Mothers Full Name: <input type="text" required></label><br>
+                <br><label>Permanent Address: <input type="text" required></label><br>
+                <br><label>Phone Number: <input type="tel"></label><br>
+                <br><label>Email: <input type="email" required></label><br>
+                <br><label>Nationality: <input type="text" required></label><br>
+                <br><h2>irth Details:</h2><br>
+                <label>Hospital/Clinic Name: <input type="text" required></label><br>
+                <br><label>Doctor or Midwife Name: <input type="text" required></label><br>
+                <br><h2>Supporting Documents:</h2><br>
+                <label>Upload Birth Record: <input type="file" required></label><br>
+                <br><label>Upload Parents ID: <input type="file" required></label><br>
+                <br><input type="submit" value="Submit Application">
+            </form>
+        </div>
+        <div class="seven">
+            <form>
+                <h1>07 INTERNSHIP APPLICATION FORM</h1>
+                <h2>Personal Details:</h2><br>
+                <label>Full Name: <input type="text" placeholder="Enter Full Name" required></label><br>
+                <br><label>Date of Birth: <input type="date" required></label><br>
+                <br><label>Address: <input type="text" required></label><br>
+                <br><label>Phone Number: <input type="tel" required></label><br>
+                <br><label>Email: <input type="email" required></label><br>
+                <br><label>Gender: 
+                    <select required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label><br>
+                <BR></BR><h2>Educational Background:</h2><br>
+                <label>Institution Name: <input type="text" required></label><br>
+                <br><label>Degree/Program: <input type="text" required></label><br>
+                <br><label>Year of Study: 
+                    <select required>
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                        <option value="graduate">Graduate</option>
+                    </select>
+                </label><br>
+                <BR></BR><h2>Internship Details:</h2><br>
+                <label>Position Applied For: <input type="text" required></label><br>
+                <br><label>Preferred Start Date: <input type="date" required></label><br>
+                <br><label>Duration: <input type="number" required></label><br>
+                <h2>Attachments:</h2><br>
+                <label>Upload Resume: <input type="file" required></label><br>
+            </form>
+        </div>
+        <div class="eight">
+            <form>
+                <h1>08 DIVORCE APPLICATION FORM</h1>
+                <h2>Applicants Details:</h2><br>
+                <label>Full Name: <input type="text" placeholder="Enter Full Name" required></label><br>
+                <br><label>Date of Birth: <input type="date" required></label><br>
+                <br><label>Address: <input type="text" required></label><br>
+                <br><label>Phone Number: <input type="tel" required></label><br>
+                <br><label>Email: <input type="email" required></label><br>
+                <br><label>Gender: 
+                    <select required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label><br>
+                <br><h2>Spouses Details:</h2><br>
+                <label>Full Name of Spouse: <input type="text" required></label><br>
+                <br><label>Address of Spouse: <input type="text" required></label><br>
+                <br><h2>Marriage Details:</h2><br>
+                <label>Date of Marriage: <input type="date" required></label><br>
+                <br><label>Place of Marriage: <input type="text" required></label><br>
+                <br><label>Marriage Certificate Number: <input type="text" required></label><br>
+                <br><h2>Reason for Divorce:</h2><br>
+                <label>Reason for Divorce: </label>><br>
+                <textarea name="grounds" rows="4" cols="45" required></textarea><br>
+                <h2>Legal Representation:</h2><br>
+                <label>Lawyers Name (if applicable): <input type="text"></label><br>
+                <br><label>Lawyers Contact Information: <input type="text"></label><br>
+                <h4>Applicants Signature:</h4>
+                <label>Upload Signature: <input type="file" required></label><br>
+                <br><input type="submit" value="Submit Application">
+            </form>
+        </div>
+        <div class="nine">
+            <form>
+                <h1>09 PAN CARD APPLICATION FORM</h1>
+                <h2>Personal Details:</h2><br>
+                <label>Full Name: <input type="text" placeholder="Enter Full Name" required></label><br>
+                <br><label>Date of Birth: <input type="date" required></label><br>
+                <br><label>Gender: 
+                    <select required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label><br>
+                <br><label>Address: <input type="text" required></label><br>
+                <br><label>Phone Number: <input type="tel" required></label><br>
+                <br><label>Email: <input type="email" required></label><br>
+                <br><label>Nationality: <input type="text" required></label><br>
+                <br><h2>Identity Proof:</h2><br>
+                <label>Upload Identity Proof Document: <input type="file" required></label><br>
+                <br><h2>Additional Details:</h2><br>
+                <label>Fathers Name: <input type="text" required></label><br>
+                <br><label>Mothers Name: <input type="text" required></label><br>
+            </form>
+        </div>
+        <div class="ten">
+            <form>
+                <h1>10 AADHAAR CARD APPLICATION FORM</h1>
+                <h2>Personal Details:</h2><br>
+                <label>Full Name: <input type="text" placeholder="Enter Full Name" required></label><br>
+                <br><label>Date of Birth: <input type="date" required></label><br>
+                <br><label>Gender: 
+                    <select required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label><br>
+                <br><label>Address: <input type="text" required></label><br>
+                <br><label>Phone Number: <input type="tel" required></label><br>
+                <br><label>Email: <input type="email"></label><br>
+                <br><label>Nationality: <input type="text" required></label><br>
+                <br><h2>Identity Proof:</h2><br>
+                <label>Upload Identity Proof Document (e.g., Passport, Drivers License): <input type="file" required></label><br>
+                <br><h2>Address Proof:</h2><br>
+                <label>Upload Address Proof Document (e.g., Utility Bill, Bank Statement): <input type="file" required></label><br>
+                <br><h2>Additional Details:</h2><br>
+                <label>Fathers Name: <input type="text" required></label><br>
+                <br><label>Mothers Name: <input type="text" required></label><br>
+                <h4>Applicants Signature:</h4><br>
+                <label>Upload Signature: <input type="file" required></label><br>
+                <br><input type="submit" value="Submit Aadhaar Card Application">
+            </form>
+        </div>
+    </body>
+</html>
